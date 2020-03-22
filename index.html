@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,69 +10,263 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Armaan Raut</title>
 </head>
+
 <body>
+
   <!-- header -->
   <header>
     <div class="container text-center">
       <div class="user-box">
-        <img src="img/user1.png" alt="">
+        <img src="img/user1.png" alt="user">
         <h1>Armaan Raut</h1>
         <p>Broadband Technician</p>
       </div>     
     </div>
     <div class="scroll-btn">
       <div class="scroll-bar">
-        <a href=""><span></span></a>
+        <a href="#about"><span></span></a>
       </div>
     </div>
   </header>
+
   <!-- user info -->
-  <div class="user-info"> 
+  <section id="user-info"> 
+
     <div class="nav-bar">
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+
+      <nav class="navbar navbar-expand-lg">
+
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#p-w">Projects & Workshops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+
+      </nav>
+
+    </div>
     <!-- about -->
     <div class="about container" id="about"> 
       <div class="row">
+
         <div class="col-md-6 text-center">
           <img src="img/user2.jpg" class="profile-img">
         </div>
+
         <div class="col-md-6">
           <h3>
             Who am I?
           </h3>
+
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
           </p>
+          <div class="skills-bar ">
+
+            <p>IP Networking</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%;">
+                80%
+              </div>
+            </div>
+
+            <p>Content Writing</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%;">
+                70%
+              </div>
+            </div>
+
+            <p>Web Development</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 50%;">
+                  50%
+              </div>
+            </div>  
+
+            <p>Presentaion & public speaking</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 75%;">
+                75%
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
-  </div>
+
+    <!-- social icons -->
+    <div class="social-icons">
+
+      <ul>
+        <!-- <a href="raut.armaan04@gmail.com"><li><i class="fa fa-envelope"></i></li></a> -->
+        <a href="https://www.linkedin.com/in/armaan-raut-9a654715b/" target="_blank"><li><i class="fa fa-linkedin"></i></li></a>
+        <a href="https://github.com/SoullessCoder" target="_blank"><li><i class="fa fa-github"></i></li></a>
+        <a href="https://www.instagram.com/anotherarmaan/" target="_blank"><li><i class="fa fa-instagram"></i></li></a>
+      </ul>
+    </div>
+    <!-- resume -->
+    <div class="resume" id="resume">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <h3 class="text-center">My Education</h3>  
+
+            <ul class="timeline">
+              <li>
+                <h4>Sathyabama Institute of Sci. & Tech, Chennai — B.E CSE</h4>
+                <p> <span>2017  -  Present </span> <br>
+                  Currently pursuing Bachelor of Engineering degree in Computer Science & Engineering
+                  </p>
+              </li>
+              <li>
+                <h4>Brighton International School, Raipur — 10+2,10</h4>
+                <p> <span>2013 - 2017 </span> <br>
+                  Completed my schooling of 10th and 10+2
+                  </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <h3 class="text-center">My Experience</h3>  
+
+            <ul class="timeline">
+              <li>
+                <h4>Content Writer</h4>
+                <p> 
+                  Woking for a college club as a Content Writer and also with other members to organize events, meetings, and other club activities. I have helped in presenting and hosting some of the events.
+                  <b>Company</b> - English Literature Club <br>
+                  <b>Duraton</b> - 2019  -  Present <br>
+                  <b>Location</b> - Sathyabama Institute of Sci. & Tech., Chennai, India
+                </p>
+              </li>
+              <li>
+                <h4>Network Intern</h4>
+                <p>
+                  Worked as a networking intern for the company to learn and understand the jobs and responsibilities of a network engineer.  
+                </p>
+                <b>Company</b> - BSNL <br>
+                  <b>Duraton</b> - May 2019  -  June 2019 <br>
+                  <b>Location</b> - RTTC, Bhubneswar, India
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- projects and workshops -->
+    <div class="p-w" id="p-w">
+      <div class="container">
+        <h1 class="text-center">My projects and workshops</h1>
+        <p class="text-center">
+          Here I list my projects and workshops that I have done.
+        </p>
+
+        <div class="row-1">
+          <div class="col-md-6">
+            <div class="project-box">
+              <h6><b>Virtual LAN(VLAN)</b> — IP Networking</h6>
+              <p>I had the privilege to attend an internship at BSNL, BBSR (Duration 30 days)and got to learn about IP Networking. Here I did a Project on Virtual LAN the report is in the Link: </p>
+              <a href="https://docs.google.com/document/d/1UFH5k93qjFEOy00uXQ9pbgLFviYYHEnR_ngmk_U_IEU/edit?usp=sharing">VLAN</a>
+            </div>
+        </div>
+
+        <div class="row-2"></div>
+            <div class="col-md-4 workshop">
+              <div class="project-box">
+                <h6><b>MIT APP Inventor 2:(VLAN)</b> — Conducted by Student Arena</h6>
+                <p>Attened the MIT APP Inventor workshop and got hands on experience to create apps using APP Inventor</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 workshop">
+              <div class="project-box">
+                <h6><b>Internet of Things:(VLAN)</b> — Conducted by MSME</h6>
+                <p>I attended workshop conducted by MSME on Internet of Things and learned about Ardino and its applications </p>
+              </div>
+            </div>
+
+            <div class="col-md-4 workshop">
+              <div class="project-box">
+                <h6><b>Ethical Hacking:(VLAN)</b> — Conducted by E-Cell IIT </h6>
+                <p>Visited IIT Madras and attedned a workshop to learn the basics of ethical hacking and its applications</p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <!-- contact -->
+    <div class="contact" id="contact">
+      <div class="container text-center">
+        <h1>Contact me</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fa fa-phone"></i>
+            <p>+91 8959000137</p>
+          </div>
+  
+          <div class="col-md-4">
+            <i class="fa fa-envelope"></i>
+            <p>raut.armaan04@gmail.com</p>
+          </div>
+  
+          <div class="col-md-4">
+            <i class="fa fa-linkedin"></i> <br>
+            <a href="https://www.linkedin.com/in/armaan-raut-9a654715b/" target="_blank">Armaan Raut</a>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary"><i class="fa fa-download"></i>Resume</button>
+        <button type="button" class="btn btn-primary"><i class="fa fa-rocket"></i>Hire me</button>
+      </div>
+      <div class="footer">
+        <P class="text-center">
+          Made by Armaan Raut <i class="fa fa-hand-peace-o"></i>
+        </P>
+      </div>
+    </div>
+  </section>   
+  <!-- smooth scroll -->
+  <script src="smooth-scroll.js">
+    <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+  </script>
+  <!-- <footer>
+    <P class="text-center">
+      Made by Armaan Raut <i class="fa fa-hand-peace-o"></i>
+    </P>
+  </footer>  -->
 </body>
 </html>

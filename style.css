@@ -224,6 +224,10 @@ header{
   border: 2px solid #fff;
   background: transparent;
 }
+.contact .btn a{
+  color: #fff;
+
+}
 .contact .btn:focus{
   box-shadow: none !important;
 }
